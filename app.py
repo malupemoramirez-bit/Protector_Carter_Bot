@@ -1,12 +1,17 @@
 from flask import Flask, request
+import requests
+import os
 
 app = Flask(__name__)
 
-VERIFY_TOKEN = "protector_carter_2026"
+VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
+PAGE_ACCESS_TOKEN = os.getenv("PAGE_ACCESS_TOKEN")
+
 
 @app.route("/", methods=["GET"])
 def home():
     return "Protector Carter Bot funcionando"
+
 
 @app.route("/webhook", methods=["GET", "POST"])
 def webhook():
@@ -22,8 +27,48 @@ def webhook():
 
     if request.method == "POST":
         data = request.get_json()
+
         print(data)
+
+        if "entry" in data:
+            for entry in data["entry"]:
+                for event in entry["messaging"]:
+
+                    if "message" in event:
+
+                        sender_id = event["sender"]["id"]
+
+                        if "text" in event["message"]:
+                            texto = event["message"]["text"]
+
+                            respuesta = f"Recibí tu mensaje: {texto}"
+
+                            send_message(sender_id, respuesta)
+
         return "EVENT_RECEIVED", 200
+
+
+def send_message(recipient_id, message):
+
+    url = f"https://graph.facebook.com/v25.0/me/messages?access_token={PAGE_ACCESS_TOKEN}"
+
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "text": message
+        }
+    }
+
+    r = requests.post(url, json=payload, headers=headers)
+
+    print(r.status_code)
+    print(r.text)
 
 
 if __name__ == "__main__":
