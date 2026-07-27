@@ -1,7 +1,15 @@
+from catalogo import buscar_vehiculo
+
 def responder(texto):
 
     texto = texto.lower()
+    vehiculo = buscar_vehiculo(texto)
 
+    if vehiculo:
+        return (
+            f"Perfecto. Tenemos Protector Carter para {vehiculo['nombre']}.\n\n"
+            f"{vehiculo['pregunta']}"
+        )
     if "hola" in texto:
         return "Hola 👋 Bienvenido a Protector Carter. ¿Qué vehículo deseas proteger?"
 

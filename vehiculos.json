@@ -1,0 +1,19 @@
+{
+    "hilux": {
+        "nombre": "Toyota Hilux",
+        "pregunta": "¿Tu camioneta es 4x2 o 4x4?",
+        "imagenes": "hilux"
+    },
+
+    "dmax": {
+        "nombre": "Chevrolet D-Max",
+        "pregunta": "¿Tu camioneta es 4x2 o 4x4?",
+        "imagenes": "dmax"
+    },
+
+    "amarok": {
+        "nombre": "Volkswagen Amarok",
+        "pregunta": "¿Es automática o mecánica?",
+        "imagenes": "amarok"
+    }
+}
