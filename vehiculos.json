@@ -1,19 +1,25 @@
 {
     "hilux": {
         "nombre": "Toyota Hilux",
-        "pregunta": "¿Tu camioneta es 4x2 o 4x4?",
-        "imagenes": "hilux"
+        "imagenes": "hilux",
+        "precio_barranquilla": 400000,
+        "precio_capital": 400000,
+        "precio_municipio": 420000
     },
 
     "dmax": {
         "nombre": "Chevrolet D-Max",
-        "pregunta": "¿Tu camioneta es 4x2 o 4x4?",
-        "imagenes": "dmax"
+        "imagenes": "dmax",
+        "precio_barranquilla": 400000,
+        "precio_capital": 400000,
+        "precio_municipio": 420000
     },
 
     "amarok": {
         "nombre": "Volkswagen Amarok",
-        "pregunta": "¿Es automática o mecánica?",
-        "imagenes": "amarok"
+        "imagenes": "amarok",
+        "precio_barranquilla": 400000,
+        "precio_capital": 400000,
+        "precio_municipio": 420000
     }
 }
