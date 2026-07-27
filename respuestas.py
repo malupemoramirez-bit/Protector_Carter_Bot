@@ -7,16 +7,12 @@ def responder(texto):
 
     if vehiculo:
         return (
-            f"Perfecto. Tenemos Protector Carter para {vehiculo['nombre']}.\n\n"
-            f"{vehiculo['pregunta']}"
-        )
-    if "hola" in texto:
-        return "Hola 👋 Bienvenido a Protector Carter. ¿Qué vehículo deseas proteger?"
-
-    if "hilux" in texto:
-        return (
-            "Perfecto. Tenemos protector para Toyota Hilux.\n\n"
-            "Te mostraré las fotografías de la referencia disponible."
+            f"¡Perfecto! Tenemos Protector Carter para {vehiculo['nombre']}.\n\n"
+            f"💰 Precio con instalación en Barranquilla: ${vehiculo['precio_barranquilla']:,} COP.\n"
+            f"🚚 Precio con envío a ciudades capitales: ${vehiculo['precio_capital']:,} COP.\n"
+            f"📦 Precio con envío a municipios: ${vehiculo['precio_municipio']:,} COP.\n\n"
+            "En un momento te compartiré las fotografías de esta referencia.\n\n"
+            "¿En qué ciudad te encuentras? Así te indico la opción de instalación o envío disponible."
         )
 
     if "precio" in texto:
