@@ -1,7 +1,7 @@
 from flask import Flask, request
 import requests
 import os
-
+from respuestas import responder
 app = Flask(__name__)
 
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
@@ -41,7 +41,7 @@ def webhook():
                         if "text" in event["message"]:
                             texto = event["message"]["text"]
 
-                            respuesta = f"Recibí tu mensaje: {texto}"
+                            respuesta = responder(texto)
 
                             send_message(sender_id, respuesta)
 
