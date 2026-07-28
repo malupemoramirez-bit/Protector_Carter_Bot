@@ -2,7 +2,6 @@ from flask import Flask, request
 import requests
 import os
 from respuestas import responder
-from catalogo import buscar_vehiculo
 
 app = Flask(__name__)
 
@@ -28,12 +27,14 @@ def webhook():
         return "Token incorrecto", 403
 
     if request.method == "POST":
+
         data = request.get_json()
 
         print(data)
 
         if "entry" in data:
             for entry in data["entry"]:
+
                 for event in entry["messaging"]:
 
                     if "message" in event:
@@ -44,17 +45,14 @@ def webhook():
 
                             texto = event["message"]["text"]
 
-                            respuesta = responder(texto)
+                            mensaje, imagen = responder(texto)
 
-                            # Enviar mensaje de texto
-                            send_message(sender_id, respuesta)
+                            # Enviar texto
+                            send_message(sender_id, mensaje)
 
-                            # Buscar vehículo
-                            vehiculo = buscar_vehiculo(texto)
-
-                            # Si existe, enviar la imagen
-                            if vehiculo and "imagenes" in vehiculo:
-                                send_image(sender_id, vehiculo["imagenes"])
+                            # Enviar imagen si existe
+                            if imagen:
+                                send_image(sender_id, imagen)
 
         return "EVENT_RECEIVED", 200
 
