@@ -1,11 +1,11 @@
 {
     "hilux": {
-        "nombre": "Toyota Hilux",
-        "imagenes": "hilux",
-        "precio_barranquilla": 400000,
-        "precio_capital": 400000,
-        "precio_municipio": 420000
-    },
+    "nombre": "Toyota Hilux",
+    "imagenes": "https://res.cloudinary.com/TU_CLOUD/image/upload/v.....png",
+    "precio_barranquilla": 400000,
+    "precio_capital": 400000,
+    "precio_municipio": 420000
+}
 
     "dmax": {
         "nombre": "Chevrolet D-Max",
