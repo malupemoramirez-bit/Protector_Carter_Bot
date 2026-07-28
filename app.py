@@ -2,6 +2,8 @@ from flask import Flask, request
 import requests
 import os
 from respuestas import responder
+from catalogo import buscar_vehiculo
+
 app = Flask(__name__)
 
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
@@ -39,11 +41,20 @@ def webhook():
                         sender_id = event["sender"]["id"]
 
                         if "text" in event["message"]:
+
                             texto = event["message"]["text"]
 
                             respuesta = responder(texto)
 
+                            # Enviar mensaje de texto
                             send_message(sender_id, respuesta)
+
+                            # Buscar vehículo
+                            vehiculo = buscar_vehiculo(texto)
+
+                            # Si existe, enviar la imagen
+                            if vehiculo and "imagenes" in vehiculo:
+                                send_image(sender_id, vehiculo["imagenes"])
 
         return "EVENT_RECEIVED", 200
 
@@ -67,7 +78,36 @@ def send_message(recipient_id, message):
 
     r = requests.post(url, json=payload, headers=headers)
 
-    print(r.status_code)
+    print("MENSAJE:", r.status_code)
+    print(r.text)
+
+
+def send_image(recipient_id, image_url):
+
+    url = f"https://graph.facebook.com/v25.0/me/messages?access_token={PAGE_ACCESS_TOKEN}"
+
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "recipient": {
+            "id": recipient_id
+        },
+        "message": {
+            "attachment": {
+                "type": "image",
+                "payload": {
+                    "url": image_url,
+                    "is_reusable": True
+                }
+            }
+        }
+    }
+
+    r = requests.post(url, json=payload, headers=headers)
+
+    print("IMAGEN:", r.status_code)
     print(r.text)
 
 
