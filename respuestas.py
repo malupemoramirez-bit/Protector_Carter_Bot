@@ -5,6 +5,37 @@ def responder(texto):
     texto = texto.lower()
     vehiculo = buscar_vehiculo(texto)
 
+    # Saludos
+    if any(saludo in texto for saludo in [
+        "hola",
+        "hola!",
+        "holaaa",
+        "buenas",
+        "buen día",
+        "buen dia",
+        "buenos días",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "qué tal",
+        "que tal",
+        "saludos",
+        "hey",
+        "hi",
+        "hello",
+        "ey",
+        "alo",
+        "aló"
+    ]):
+        return (
+            "👋 ¡Hola! Bienvenido a Protector Carter.\n\n"
+            "🚗 Indícanos la marca, línea y modelo de tu vehículo."
+        )
+
+    
+    
+
+
     if vehiculo:
      print("VEHICULO ENCONTRADO:", vehiculo)
 
