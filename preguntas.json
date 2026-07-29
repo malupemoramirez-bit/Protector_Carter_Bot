@@ -1,0 +1,381 @@
+{
+  "empresa": [
+    {
+      "keywords": [
+        "quienes son",
+        "quiénes son",
+        "empresa",
+        "compañia",
+        "compañía",
+        "ustedes"
+      ],
+      "respuesta": "Somos fabricantes y diseñadores de Protectores Carter desde el año 2019. Nos especializamos en desarrollar protectores para camionetas y SUV, fabricados específicamente para cada vehículo."
+    },
+    {
+      "keywords": [
+        "desde cuando",
+        "desde cuándo",
+        "años",
+        "experiencia"
+      ],
+      "respuesta": "Fabricamos Protectores Carter desde el año 2019 y contamos con amplia experiencia desarrollando soluciones para proteger la parte inferior del vehículo."
+    },
+    {
+      "keywords": [
+        "fabricantes",
+        "fabrican",
+        "fabricante"
+      ],
+      "respuesta": "Sí. Somos fabricantes directos y diseñadores de Protectores Carter, por lo que compras directamente con quien desarrolla y fabrica el producto."
+    },
+    {
+      "keywords": [
+        "intermediarios",
+        "revendedores",
+        "distribuidores"
+      ],
+      "respuesta": "No trabajamos mediante intermediarios. Compras directamente al fabricante, lo que nos permite ofrecer precios competitivos y atención especializada."
+    },
+    {
+      "keywords": [
+        "donde estan",
+        "dónde están",
+        "ubicacion",
+        "ubicación"
+      ],
+      "respuesta": "Nuestra planta de fabricación e instalación se encuentra en Barranquilla y realizamos envíos a todo Colombia."
+    },
+    {
+      "keywords": [
+        "referencias",
+        "cuantos modelos",
+        "300 referencias"
+      ],
+      "respuesta": "Actualmente contamos con más de 300 referencias para diferentes vehículos y continuamos desarrollando nuevos modelos."
+    },
+    {
+      "keywords": [
+        "vehiculos nuevos",
+        "vehículos nuevos",
+        "modelo nuevo",
+        "nuevo modelo"
+      ],
+      "respuesta": "Como somos diseñadores y fabricantes, si tu vehículo es un modelo nuevo podemos evaluar el desarrollo de una referencia específica."
+    },
+    {
+      "keywords": [
+        "porque comprar",
+        "por que comprar",
+        "ventajas",
+        "beneficios"
+      ],
+      "respuesta": "Compras directamente al fabricante, recibes asesoría especializada, un protector diseñado para tu vehículo, materiales de alta calidad y precios competitivos."
+    }
+  ],
+
+  "producto": [
+    {
+      "keywords": [
+        "que protege",
+        "qué protege",
+        "protege",
+        "proteccion",
+        "protección"
+      ],
+      "respuesta": "Nuestro Protector Carter protege la parte inferior del vehículo, cubriendo desde la base del radiador hasta la cuna del motor, ayudando a proteger componentes como el radiador, el cárter, la transmisión y otros elementos expuestos."
+    },
+    {
+      "keywords": [
+        "radiador",
+        "carter",
+        "cárter",
+        "transmision",
+        "transmisión",
+        "ventilador"
+      ],
+      "respuesta": "El diseño del protector ayuda a proteger componentes importantes como la base del radiador, el cárter del motor, la transmisión, el ventilador inferior y la cuna del vehículo."
+    },
+    {
+      "keywords": [
+        "piedra",
+        "piedras",
+        "golpe",
+        "golpes",
+        "hueco",
+        "bache",
+        "resalto"
+      ],
+      "respuesta": "El Protector Carter está diseñado para ayudar a absorber y distribuir los impactos ocasionados por piedras, huecos, resaltos y caminos destapados, reduciendo el riesgo de daños en la parte inferior del vehículo."
+    },
+    {
+      "keywords": [
+        "off road",
+        "4x4",
+        "trocha",
+        "destapado",
+        "campo"
+      ],
+      "respuesta": "Es ideal para vehículos que transitan tanto en ciudad como por carreteras destapadas, zonas rurales o recorridos donde la parte inferior del vehículo está más expuesta."
+    },
+    {
+      "keywords": [
+        "material",
+        "acero",
+        "lamina",
+        "lámina",
+        "calibre"
+      ],
+      "respuesta": "Fabricamos nuestros Protectores Carter en lámina de acero HR calibre 14, seleccionada por su resistencia y durabilidad."
+    },
+    {
+      "keywords": [
+        "aluminio"
+      ],
+      "respuesta": "Elegimos acero HR calibre 14 por su excelente resistencia mecánica. Además, ofrece una muy buena relación entre protección, durabilidad y costo frente a otras alternativas."
+    },
+    {
+      "keywords": [
+        "cambio de aceite",
+        "aceite",
+        "filtro",
+        "filtros"
+      ],
+      "respuesta": "Nuestros Protectores Carter cuentan con orificios estratégicamente ubicados para realizar el cambio de aceite y filtros sin necesidad de desmontar el protector."
+    },
+    {
+      "keywords": [
+        "garantia vehiculo",
+        "garantía vehículo",
+        "pierde garantia",
+        "pierde garantía"
+      ],
+      "respuesta": "No. La instalación utiliza los puntos originales del vehículo y no requiere perforaciones ni modificaciones al chasis, por lo que no interfiere con la garantía del vehículo."
+    },
+    {
+      "keywords": [
+        "perforar",
+        "perforaciones",
+        "modificar",
+        "chasis"
+      ],
+      "respuesta": "No es necesario perforar ni modificar el chasis. El protector se instala utilizando los puntos originales del vehículo."
+    },
+    {
+      "keywords": [
+        "pernos",
+        "tornillos",
+        "tornilleria",
+        "tornillería"
+      ],
+      "respuesta": "Sí. Todos nuestros Protectores Carter incluyen la tornillería y los pernos necesarios para su instalación."
+    }
+  ],
+
+  "fabricacion": [
+    {
+      "keywords": [
+        "fabricacion",
+        "fabricación",
+        "como fabrican",
+        "cómo fabrican",
+        "proceso"
+      ],
+      "respuesta": "Cada Protector Carter se fabrica específicamente para la referencia del vehículo. El proceso inicia con corte láser de alta precisión, continúa con doblez industrial y finaliza con pintura poliuretánica para brindar excelente acabado y resistencia."
+    },
+    {
+      "keywords": [
+        "corte laser",
+        "corte láser",
+        "laser",
+        "láser"
+      ],
+      "respuesta": "Todos nuestros Protectores Carter son fabricados mediante corte láser CNC, lo que garantiza máxima precisión y un ajuste perfecto para cada vehículo."
+    },
+    {
+      "keywords": [
+        "doblez",
+        "doblar",
+        "plegado"
+      ],
+      "respuesta": "Después del corte láser, cada pieza pasa por un proceso de doblez industrial para obtener la geometría exacta diseñada para cada vehículo."
+    },
+    {
+      "keywords": [
+        "pintura",
+        "pintado",
+        "color"
+      ],
+      "respuesta": "Aplicamos pintura poliuretánica de alta resistencia. Actualmente fabricamos en color negro, gris, rojo y negro con detalles azules, dependiendo de la referencia."
+    },
+    {
+      "keywords": [
+        "fabrican sobre medidas",
+        "sobre medidas",
+        "medidas",
+        "modelo nuevo"
+      ],
+      "respuesta": "Sí. Como somos diseñadores y fabricantes, si tu vehículo es un modelo nuevo o aún no contamos con la referencia, podemos evaluar su desarrollo directamente sobre el vehículo."
+    },
+    {
+      "keywords": [
+        "cuanto demora",
+        "cuánto demora",
+        "tiempo de fabricacion",
+        "tiempo de fabricación",
+        "demora"
+      ],
+      "respuesta": "Al manejar más de 300 referencias no almacenamos una unidad de cada modelo. Fabricamos según el pedido para garantizar que recibas la referencia correcta. Normalmente la fabricación tarda entre 1 y 3 días hábiles, dependiendo de la disponibilidad."
+    },
+    {
+      "keywords": [
+        "existencia",
+        "stock",
+        "inventario"
+      ],
+      "respuesta": "No manejamos inventario de todas las referencias. Fabricamos cada protector una vez confirmado el pedido, lo que nos permite ofrecer más de 300 modelos diferentes sin comprometer la calidad."
+    }
+  ],
+"pagos": [
+  {
+    "keywords": [
+      "pago",
+      "pagar",
+      "como pago",
+      "cómo pago",
+      "forma de pago",
+      "formas de pago"
+    ],
+    "respuesta": "Trabajamos con un anticipo del 50% para iniciar la fabricación de tu Protector Carter. El 50% restante se paga cuando realizamos la instalación en Barranquilla o antes de despachar el producto si el envío es a otra ciudad."
+  },
+  {
+    "keywords": [
+      "50%",
+      "anticipo",
+      "adelanto",
+      "abono"
+    ],
+    "respuesta": "Solicitamos un anticipo del 50% porque cada Protector Carter se fabrica específicamente para la referencia del vehículo. Una vez finalizada la fabricación, cancelas el 50% restante para la instalación o antes del despacho."
+  },
+  {
+    "keywords": [
+      "contraentrega",
+      "contra entrega",
+      "pagar al recibir",
+      "cobro contra entrega"
+    ],
+    "respuesta": "No manejamos pagos contra entrega. En el pasado tuvimos inconvenientes porque algunos clientes no recibían el producto y las transportadoras nos cobraban el envío de ida y el regreso, generando un doble flete que incrementaba considerablemente los costos."
+  },
+  {
+    "keywords": [
+      "por que no contraentrega",
+      "por qué no contraentrega",
+      "porque no manejan contraentrega"
+    ],
+    "respuesta": "Además del doble flete cuando un envío es rechazado, las transportadoras cobran un porcentaje adicional por realizar el recaudo del dinero. Ese costo terminaría aumentando el valor del Protector Carter para todos nuestros clientes, por eso preferimos mantener precios bajos trabajando con anticipo."
+  },
+  {
+    "keywords": [
+      "guia",
+      "guía",
+      "numero de guia",
+      "número de guía",
+      "seguimiento"
+    ],
+    "respuesta": "Una vez recibimos el pago final y despachamos tu Protector Carter, te enviamos inmediatamente la guía de transporte para que puedas hacer seguimiento al envío."
+  },
+  {
+    "keywords": [
+      "transferencia",
+      "consignacion",
+      "consignación",
+      "bancolombia",
+      "nequi",
+      "daviplata"
+    ],
+    "respuesta": "Al confirmar tu pedido te enviaremos los datos de pago disponibles. Una vez recibido el anticipo iniciamos inmediatamente el proceso de fabricación."
+  },
+  {
+    "keywords": [
+      "cuando pago",
+      "cuándo pago",
+      "segundo pago",
+      "saldo"
+    ],
+    "respuesta": "El saldo restante se cancela cuando el Protector Carter ya está fabricado. Si la instalación es en Barranquilla, el pago se realiza al momento de instalar. Si el envío es nacional, el saldo se cancela antes del despacho y posteriormente enviamos la guía."
+  },
+  {
+    "keywords": [
+      "factura",
+      "facturacion",
+      "facturación"
+    ],
+    "respuesta": "Si requieres factura, indícanos tus datos de facturación al momento de confirmar el pedido y con gusto la emitimos."
+  }
+],
+
+  "envios": [
+    {
+  "keywords": [
+    "envio",
+    "envío",
+    "envian",
+    "envían",
+    "despacho"
+  ],
+  "respuesta": "Realizamos envíos a todo Colombia. Una vez finalizada la fabricación y confirmado el pago, despachamos tu Protector Carter y te enviamos la guía para que puedas hacer seguimiento."
+},
+{
+  "keywords": [
+    "transportadora",
+    "transportadoras",
+    "interrapidisimo",
+    "servientrega",
+    "coordinadora"
+  ],
+  "respuesta": "Trabajamos con las principales transportadoras del país, seleccionando la mejor opción según el destino para que recibas tu Protector Carter de forma segura."
+},
+{
+  "keywords": [
+    "cuanto demora envio",
+    "cuánto demora envío",
+    "tiempo de envio",
+    "tiempo de envío",
+    "dias de envio"
+  ],
+  "respuesta": "Después de finalizar la fabricación, el tiempo de entrega depende de la ciudad de destino. Normalmente las ciudades principales reciben el producto entre 1 y 3 días hábiles."
+},
+{
+  "keywords": [
+    "seguimiento",
+    "guia",
+    "guía",
+    "numero de guia",
+    "número de guía"
+  ],
+  "respuesta": "Sí. Después del despacho te enviaremos la guía de la transportadora para que puedas consultar el estado de tu envío en todo momento."
+},
+{
+  "keywords": [
+    "municipio",
+    "vereda",
+    "pueblo"
+  ],
+  "respuesta": "También realizamos envíos a municipios y poblaciones de todo Colombia. El tiempo de entrega dependerá de la cobertura de la transportadora."
+},
+{
+  "keywords": [
+    "barranquilla",
+    "instalacion barranquilla",
+    "instalación barranquilla"
+  ],
+  "respuesta": "Si estás en Barranquilla puedes visitarnos para realizar la instalación directamente en nuestra planta."
+},
+{
+  "keywords": [
+    "medellin",
+    "medellín"
+  ],
+  "respuesta": "Si te encuentras en Medellín también podemos coordinar la instalación con nuestro punto autorizado o enviarte el Protector Carter para que sea instalado allí."
+}
+]
+}
