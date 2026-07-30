@@ -31,7 +31,12 @@ def buscar_pregunta(texto):
 
     texto = texto.lower()
 
-    for categoria in PREGUNTAS.values():
+    print("================================")
+    print("BUSCANDO:", texto)
+
+    for nombre_categoria, categoria in PREGUNTAS.items():
+
+        print("Categoria:", nombre_categoria)
 
         for pregunta in categoria:
 
@@ -39,6 +44,10 @@ def buscar_pregunta(texto):
 
                 if palabra.lower() in texto:
 
+                    print("ENCONTRO:", palabra)
+
                     return pregunta["respuesta"]
+
+    print("NO ENCONTRO NADA")
 
     return None
