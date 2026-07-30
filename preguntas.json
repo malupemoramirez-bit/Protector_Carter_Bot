@@ -70,8 +70,73 @@
         "beneficios"
       ],
       "respuesta": "Compras directamente al fabricante, recibes asesoría especializada, un protector diseñado para tu vehículo, materiales de alta calidad y precios competitivos."
-    }
+    },
+  
+{
+  "keywords": [
+    "descuento",
+    "descuentos",
+    "tiene descuento",
+    "hay descuento",
+    "rebaja",
+    "ultimo precio",
+    "último precio",
+    "mejor precio",
+    "precio final",
+    "negociable",
+    "puede mejorar el precio"
   ],
+  "respuesta": "Nuestros precios son precios directos de fábrica, sin intermediarios, por lo que ya ofrecemos uno de los mejores precios del mercado. Además, el precio publicado incluye la instalación en Barranquilla o el envío a tu ciudad, según la opción elegida. Si prefieres comprar el protector sin instalación o deseas que lo enviemos para instalarlo por tu cuenta, el valor disminuye $50.000 COP."
+},
+{
+  "keywords": [
+    "direccion",
+    "dirección",
+    "donde estan",
+    "dónde están",
+    "donde se encuentran",
+    "dónde se encuentran",
+    "ubicacion",
+    "ubicación",
+    "como llegar",
+    "cómo llegar",
+    "direccion barranquilla",
+    "dirección barranquilla",
+    "ubicacion barranquilla",
+    "ubicación barranquilla"
+  ],
+  "respuesta": "Nuestra planta de fabricación e instalación está ubicada en Barranquilla. Una vez confirmes tu pedido o agendes tu instalación, te enviaremos la ubicación exacta, la dirección y todas las indicaciones para llegar fácilmente."
+},
+{
+  "keywords": [
+    "horario",
+    "horarios",
+    "atienden",
+    "atienden hoy",
+    "atienden sabado",
+    "atienden sábado",
+    "hora de atencion",
+    "hora de atención",
+    "horario de atencion",
+    "horario de atención"
+  ],
+  "respuesta": "Trabajamos con cita previa para brindar una atención personalizada. Indícanos qué día deseas visitarnos y con gusto coordinaremos tu instalación o la entrega de tu Protector Carter."
+},
+{
+  "keywords": [
+    "agendar",
+    "agenda",
+    "cita",
+    "agendar instalacion",
+    "agendar instalación",
+    "programar instalacion",
+    "programar instalación",
+    "quiero instalar",
+    "instalar"
+  ],
+  "respuesta": "Con gusto podemos agendar tu instalación en Barranquilla. Solo indícanos la marca, línea y modelo de tu vehículo, el día en que deseas asistir y un número de contacto para reservar tu cita."
+ }
+],
 
   "producto": [
     {
